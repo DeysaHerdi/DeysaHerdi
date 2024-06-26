@@ -1,4 +1,7 @@
-## Hi there 👋
+### Linguagens
+|JavaScript|
+|-|
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" title="Javascript" width="75" height="75"/>|
 
 <!--
 **DeysaHerdi/DeysaHerdi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
