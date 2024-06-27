@@ -27,35 +27,37 @@ const makeTable = () => {
   output += `${titles}\n${spaces}\n${links}\n\n`
 }
 
-h3("Seu titulo aqui")
+h3("Linguagens/Frameworks")
 g("Javascript", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg")
 g("TypeScript", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg")
 g("React", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg")
 g("Vue", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg")
 makeTable()
 
-h3("Outro titulo?")
+h3("Tecnologias")
 g("HTML", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg")
 g("CSS", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg")
-g("Less", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/less/less-plain-wordmark.svg")
 g("Sass", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg")
 g("Bootstrap", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg")
 g("JQuery", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg")
 g("Figma", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg")
 makeTable()
 
-h3("Versioning")
+h3("Versionamento")
 g("Git", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg")
 g("Github", "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png")
 makeTable()
 
-h3("Tools")
+h3("Ferramentas")
 g("VSCode", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg")
 g("Chrome", "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg")
 makeTable()
 
-h3("Seus Links")
+h3("Links")
 link("Alura", "https://cursos.alura.com.br/user/deysaherdy")
+link("Github", "https://github.com/DeysaHerdi")
+link("Udemy", "https://www.udemy.com/user/deysaherdy/")
+link("Linkedin", "https://www.linkedin.com/in/deysa-herdi/")
 
 
 fs.writeFileSync('./README.md', output)
